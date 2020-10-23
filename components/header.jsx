@@ -15,18 +15,11 @@ export default function Header({ home }) {
 						<h2 className={style.description}>Full Stack Software Developer</h2>
 					</>
 				) : (
-					<>
-						<Link href='/'>
-							<a><img src='/profile.jpg'
-								className={`${style.headerImage} ${style.borderCircle}`}/>
-							</a>
-						</Link>
-						<h2 className={style.headerName}>
-							<Link href='/'>
-								<a>Mathew Kramsch</a>
-							</Link>
-						</h2>
-					</>
+					<Link href='/'>
+						<a><img src='/profile.jpg'
+							className={`${style.headerImage} ${style.borderCircle}`}/>
+						</a>
+					</Link>
 				)
 			}
 		</header>

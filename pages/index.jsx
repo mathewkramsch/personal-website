@@ -9,7 +9,6 @@ import Layout from '../components/layout'
 export default function Index() {
 	return (
 		<Layout home> 
-			<div className={style.indexMain}>
 			<div className={style.buttons}>
 				<Link href='/about'><a>About</a></Link>
 				<a href='/resume.pdf'>Resume</a>
@@ -20,7 +19,7 @@ export default function Index() {
 				href='https://github.com/mathewkramsch/resume-website'>
 					<FontAwesomeIcon icon={faGithub} className={style.icon}/>
 					&nbsp; Source code on Github
-			</a></div>
+			</a>
 		</Layout>
 	);
 }

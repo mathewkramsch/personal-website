@@ -11,14 +11,14 @@ const siteTitle = 'Mathew Kramsch';
 export default function Layout({ children, home }) {
 	return (
 		<div className={style.page}>
-			<div className={style.container}>
-
 				<Head>
 					<title>{siteTitle}</title>
 				</Head>
-
-				<Header home={home}/>
-				<main className={style.main}>{children}</main>
+			<div className={style.container}>
+				<div>
+					<Header home={home}/>
+					<main className={style.main}>{children}</main>
+				</div>
 
 				{
 					!home && (

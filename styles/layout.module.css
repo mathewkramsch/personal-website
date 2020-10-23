@@ -9,6 +9,10 @@
 	width: 36rem;
 	padding: 3rem 1rem 0;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 70vh;
 }
 
 .main {
@@ -18,7 +22,7 @@
 }
 
 .backToHome {
-	margin: 25rem 0 0;
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	color: #aaa;
