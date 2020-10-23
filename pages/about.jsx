@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 export default function About() {
 	return (
 		<Layout>
-			<h2>About Me</h2>
+			<h2 className={style.title}>About Me</h2>
 			<div className={style.info}>
 				<p>
 				I am a 4th year UCSB Computer Science student interested in all software 

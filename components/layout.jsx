@@ -11,9 +11,10 @@ const siteTitle = 'Mathew Kramsch';
 export default function Layout({ children, home }) {
 	return (
 		<div className={style.page}>
-				<Head>
-					<title>{siteTitle}</title>
-				</Head>
+			<Head>
+				<title>{siteTitle}</title>
+			</Head>
+
 			<div className={style.container}>
 				<div>
 					<Header home={home}/>

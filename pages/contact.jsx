@@ -10,7 +10,7 @@ import Layout from '../components/layout'
 export default function Contact() {
 	return (
 		<Layout>
-			<h2>Contact Me</h2>
+			<h2 className={style.title}>Contact Me</h2>
 			<div className={style.info}>
 				<p>
 					<FontAwesomeIcon icon={faEnvelope} className={style.iconContact}/>
