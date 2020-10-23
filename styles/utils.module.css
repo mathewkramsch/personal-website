@@ -1,12 +1,38 @@
+.indexMain {
+}
+
 .buttons {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	width: 36rem;
+	margin: 8rem auto 0;
+}
+.buttons > a {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #aaa;
+} .buttons > a:visited {
+	text-decoration: none;
+} .buttons > a:link {
+	text-decoration: none;
+} .buttons > a:hover {
+	color: #ccc;
 }
 
-.sourceGitHub {
-	color: grey;
+.sourceGithub {
+	color: #ddd;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+} .sourceGithub:visited {
+	text-decoration: none;
+} .sourceGithub:link {
+	text-decoration: none;
+} .sourceGithub:hover {
+	color: #eee;
 }
 
-.footer {
-	color: grey;
+.icon {
+	font-size: 19px;
 }

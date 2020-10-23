@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.headerHomeImage {
+	width: 10rem;
+	height: 10rem;
+} .headerImage {
+	width: 8rem;
+	height: 8rem;
+} .borderCircle {
+	border-radius: 9999px;
+}
+
+.headerHomeName {
+	font-size: 3rem;
+	font-weight: 800;
+	letter-spacing: -0.05rem;
+	margin: 1rem 0 0;
+	color: #000;
+} .description {
+	font-weight: 400;
+	font-size: 18px;
+	color: #aaa;
+	margin-top: 8px;
+}
+
+.headerName > a {
+	color: #000;
+} .headerName > a:link {
+	text-decoration: none;
+} .headerName > a:visited {
+	text-decoration: none;
+}

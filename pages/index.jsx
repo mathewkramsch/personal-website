@@ -1,22 +1,26 @@
 // index.jsx
 
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import style from '../styles/utils.module.css'
 import Layout from '../components/layout'
 
 export default function Index() {
 	return (
 		<Layout home> 
+			<div className={style.indexMain}>
 			<div className={style.buttons}>
 				<Link href='/about'><a>About</a></Link>
 				<a href='/resume.pdf'>Resume</a>
 				<Link href='/contact'><a>Contact</a></Link>
 			</div>
 			
-			<a className={style.sourceGitHub} 
+			<a className={style.sourceGithub} 
 				href='https://github.com/mathewkramsch/resume-website'>
-					Source on Github
-			</a>
+					<FontAwesomeIcon icon={faGithub} className={style.icon}/>
+					&nbsp; Source code on Github
+			</a></div>
 		</Layout>
 	);
 }

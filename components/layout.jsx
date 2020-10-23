@@ -10,27 +10,29 @@ const siteTitle = 'Mathew Kramsch';
 
 export default function Layout({ children, home }) {
 	return (
-		<div className={style.container}>
+		<div className={style.page}>
+			<div className={style.container}>
 
-			<Head>
-				<title>{siteTitle}</title>
-			</Head>
+				<Head>
+					<title>{siteTitle}</title>
+				</Head>
 
-			<Header home={home}/>
-			<main>{children}</main>
+				<Header home={home}/>
+				<main className={style.main}>{children}</main>
 
-			{
-				!home && (
-					<div>
-						<Link href='/'>
-							<a>Back to home</a>
-						</Link>
-					</div>
-				)
-			}
+				{
+					!home && (
+						<div className={style.backToHome}>
+							back to&nbsp;
+							<Link href='/'>
+								<a>home</a>
+							</Link>
+						</div>
+					)
+				}
 
+			</div>
 			<Footer/>
-
 		</div>
 	);
 }

@@ -1,6 +1,6 @@
 // footer.jsx
 
-import style from '../styles/utils.module.css'
+import style from '../styles/layout.module.css'
 
 export default function Footer() {
 	return (
