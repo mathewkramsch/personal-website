@@ -2,6 +2,8 @@ html, body {
 	font-size: 18px;
 	font-family: Ubuntu;
 	margin: 0;
+	background-color: #191919;
+	z-index: -1;
 } html {
 	height: 100%;
 } body {

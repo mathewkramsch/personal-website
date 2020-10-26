@@ -14,11 +14,11 @@ export default function Contact() {
 			<div className={style.info}>
 				<p>
 					<FontAwesomeIcon icon={faEnvelope} className={style.iconContact}/>
-					&nbsp;mathewkramsch@gmail.com
+					mathewkramsch@gmail.com
 				</p>
 				<p>
 					<FontAwesomeIcon icon={faMobileAlt} className={style.iconContact}/>
-					&nbsp;(626) 529-4008
+					(626) 529-4008
 				</p>
 			</div>
 				
