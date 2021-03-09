@@ -27,7 +27,7 @@ export default function Index() {
 				<a href='https://github.com/mathewkramsch'>
 					<FontAwesomeIcon icon={faGithub} className={style.profileIcon}/>
 				</a>
-				<a href='https://www.linkedin.com/in/mathew-kramsch-b501311ba/'>
+				<a href='https://www.linkedin.com/in/mathew-kramsch/'>
 					<FontAwesomeIcon icon={faLinkedin} className={style.profileIcon}/>
 				</a>
 			</div>
