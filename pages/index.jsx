@@ -18,7 +18,7 @@ export default function Index() {
 			</div>
 			
 			<a className={style.resumeLink} 
-				href='/resume.pdf'>
+				href='/Resume.pdf'>
 					<FontAwesomeIcon icon={faFileAlt} className={style.icon}/>
 					Full Resume PDF
 			</a>
