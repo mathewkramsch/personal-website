@@ -14,14 +14,14 @@ export default function Contact() {
 			<div className={style.info}>
 				<p>
 					<FontAwesomeIcon icon={faEnvelope} className={style.iconContact}/>
-					mathewkramsch@gmail.com
+					mathewkramsch@ucsb.edu
 				</p>
 				<p>
 					<FontAwesomeIcon icon={faMobileAlt} className={style.iconContact}/>
 					(626) 529-4008
 				</p>
 			</div>
-				
+
 		</Layout>
 	);
 }
